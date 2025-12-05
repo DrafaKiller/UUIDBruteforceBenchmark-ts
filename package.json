@@ -7,7 +7,7 @@
     "start": "bun run src/index.ts",
     "dev": "bun run --watch src/index.ts",
     "compile": "bun build src/index.ts --compile --outfile build/uuid-bruteforce-benchmark.exe",
-    "execute": "build/uuid.exe"
+    "execute": "build/uuid-bruteforce-benchmark.exe"
   },
   "devDependencies": {
     "@types/bun": "latest"
